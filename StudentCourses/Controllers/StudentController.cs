@@ -28,7 +28,6 @@ namespace REST_API_TEMPLATE.Controllers
             Log.Information("Student => {@students}", students);
             return StatusCode(StatusCodes.Status200OK, students);
         }
-
         [HttpGet("id")]
         public async Task<IActionResult> GetIdStudent(Guid id, bool includeCourses = false)
         {
