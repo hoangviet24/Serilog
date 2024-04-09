@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using StudentCourses.Data;
 using StudentCourses.Models;
-
+using Serilog;
 namespace StudentCourses.Controllers
 {
     public class StudentPageController : ControllerBase
@@ -20,7 +20,7 @@ namespace StudentCourses.Controllers
             {
                 return NotFound();
             }
-            var pageResults = 3f;
+            var pageResults = 2f;
             var pageCount = Math.Ceiling(_dataContext.Students.Count()/pageResults);
             var student = await _dataContext.Students
                 .Skip((page-1) * (int)pageResults)
@@ -32,6 +32,7 @@ namespace StudentCourses.Controllers
                 CurrentPage = page,
                 Pages = (int)pageCount,
             };
+            Log.Information("Student Page => {@response}", response);
             return Ok(response);
         }
     }
