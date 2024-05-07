@@ -7,7 +7,6 @@ namespace StudentCourses.Services
     public class CoursesServices:ICoursesServices
     {
         private readonly DataContext _context;
-        private ICoursesServices _coursesServicesImplementation;
         public CoursesServices(DataContext context) {  _context = context; }
 
         #region Courses

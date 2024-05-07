@@ -1,7 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using StudentCourses;
+using StudentCourses.Data;
 using StudentCourses.Models;
 using StudentCourses.Services;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography;
 
 namespace REST_API_TEMPLATE.Controllers
 {
@@ -10,12 +17,11 @@ namespace REST_API_TEMPLATE.Controllers
     public class StudentController : ControllerBase
     {
         private readonly ICoursesServices _coursesService;
-
         public StudentController(ICoursesServices coursesService)
         {
             _coursesService = coursesService;
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> GetIdStudent()
         {

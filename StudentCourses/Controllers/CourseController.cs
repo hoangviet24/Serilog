@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using StudentCourses.Models;
 using StudentCourses.Services;
@@ -16,7 +17,7 @@ namespace REST_API_TEMPLATE.Controllers
             _coursesService = coursesService;
         }
 
-        [HttpGet]
+        [HttpGet, Authorize]
         public async Task<IActionResult> GetCourses()
         {
             var courses = await _coursesService.GetAllCourses();
@@ -29,7 +30,7 @@ namespace REST_API_TEMPLATE.Controllers
             return StatusCode(StatusCodes.Status200OK, courses);
         }
 
-        [HttpGet("id")]
+        [HttpGet("id"),Authorize]
         public async Task<IActionResult> GetCourses(Guid id, bool includeCourses = false)
         {
             Courses courses = await _coursesService.GetIdCourses(id, includeCourses);
@@ -42,7 +43,7 @@ namespace REST_API_TEMPLATE.Controllers
             return StatusCode(StatusCodes.Status200OK, courses);
         }
 
-        [HttpPost]
+        [HttpPost,Authorize]
         public async Task<ActionResult<Courses>> AddCourses(Courses courses)
         {
             var dbCourses = await _coursesService.AddCourses(courses);
@@ -55,7 +56,7 @@ namespace REST_API_TEMPLATE.Controllers
             return CreatedAtAction("GetCourses", new { id = courses.CourseId }, courses);
         }
 
-        [HttpPut("id")]
+        [HttpPut("id"),Authorize]
         public async Task<IActionResult> UpdateCourses(Guid id, Courses courses)
         {
             if (id != courses.CourseId)
@@ -73,7 +74,7 @@ namespace REST_API_TEMPLATE.Controllers
             return NoContent();
         }
 
-        [HttpDelete("id")]
+        [HttpDelete("id"), Authorize]
         public async Task<IActionResult> DeleteCourse(Guid id)
         {
             var courses = await _coursesService.GetIdCourses(id, false);

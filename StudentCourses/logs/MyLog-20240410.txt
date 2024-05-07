@@ -1,0 +1,84 @@
+2024-04-10 21:46:27.998 +07:00 [INF] User profile is available. Using 'C:\Users\hoang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 21:46:28.472 +07:00 [INF] Now listening on: https://localhost:7267
+2024-04-10 21:46:28.473 +07:00 [INF] Now listening on: http://localhost:5031
+2024-04-10 21:46:28.474 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 21:46:28.475 +07:00 [INF] Hosting environment: Development
+2024-04-10 21:46:28.475 +07:00 [INF] Content root path: D:\API\SerilogStudent\StudentCourses
+2024-04-10 21:46:28.738 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger - null null
+2024-04-10 21:46:28.889 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger - 301 0 null 152.1448ms
+2024-04-10 21:46:28.897 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - null null
+2024-04-10 21:46:28.959 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - 200 null text/html;charset=utf-8 62.2434ms
+2024-04-10 21:46:29.002 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - null null
+2024-04-10 21:46:29.002 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - null null
+2024-04-10 21:46:29.003 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 21:46:29.003 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 21:46:29.011 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.0092ms
+2024-04-10 21:46:29.024 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 21:46:29.024 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 21:46:29.026 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - 200 143943 text/css 23.6338ms
+2024-04-10 21:46:29.029 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 25.4617ms
+2024-04-10 21:46:29.031 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 21:46:29.035 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 32.2765ms
+2024-04-10 21:46:29.075 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - null null
+2024-04-10 21:46:29.125 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.4215ms
+2024-04-10 21:46:29.433 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - null null
+2024-04-10 21:46:29.552 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.5042ms
+2024-04-10 21:46:32.536 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Courses - null null
+2024-04-10 21:46:33.142 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-10 21:46:33.146 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-04-10 21:46:33.148 +07:00 [INF] HTTP GET /api/Courses responded 401 in 604.9221 ms
+2024-04-10 21:46:33.149 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Courses - 401 0 null 613.2737ms
+2024-04-10 21:46:44.652 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7267/api/CoursesAuth/register - application/json 50
+2024-04-10 21:46:44.662 +07:00 [INF] Executing endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.Register (StudentCourses)'
+2024-04-10 21:46:44.682 +07:00 [INF] Route matched with {action = "Register", controller = "CoursesAuth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[StudentCourses.User]] Register(StudentCourses.UserDto) on controller REST_API_TEMPLATE.Controllers.CoursesAuthController (StudentCourses).
+2024-04-10 21:46:45.053 +07:00 [INF] Executing OkObjectResult, writing value of type 'StudentCourses.User'.
+2024-04-10 21:46:45.063 +07:00 [INF] Executed action REST_API_TEMPLATE.Controllers.CoursesAuthController.Register (StudentCourses) in 376.2447ms
+2024-04-10 21:46:45.063 +07:00 [INF] Executed endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.Register (StudentCourses)'
+2024-04-10 21:46:45.064 +07:00 [INF] HTTP POST /api/CoursesAuth/register responded 200 in 407.5051 ms
+2024-04-10 21:46:45.067 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7267/api/CoursesAuth/register - 200 null application/json; charset=utf-8 415.218ms
+2024-04-10 21:46:48.904 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7267/api/CoursesAuth/login - application/json 50
+2024-04-10 21:46:48.908 +07:00 [INF] Executing endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.Login (StudentCourses)'
+2024-04-10 21:46:48.912 +07:00 [INF] Route matched with {action = "Login", controller = "CoursesAuth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(StudentCourses.UserDto) on controller REST_API_TEMPLATE.Controllers.CoursesAuthController (StudentCourses).
+2024-04-10 21:46:48.952 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-10 21:46:48.954 +07:00 [INF] Executed action REST_API_TEMPLATE.Controllers.CoursesAuthController.Login (StudentCourses) in 40.0827ms
+2024-04-10 21:46:48.955 +07:00 [INF] Executed endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.Login (StudentCourses)'
+2024-04-10 21:46:48.957 +07:00 [INF] HTTP POST /api/CoursesAuth/login responded 200 in 49.0905 ms
+2024-04-10 21:46:48.958 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7267/api/CoursesAuth/login - 200 null text/plain; charset=utf-8 54.0318ms
+2024-04-10 21:46:59.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Courses - null null
+2024-04-10 21:46:59.922 +07:00 [INF] Executing endpoint 'REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses)'
+2024-04-10 21:46:59.924 +07:00 [INF] Route matched with {action = "GetCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses() on controller REST_API_TEMPLATE.Controllers.CoursesController (StudentCourses).
+2024-04-10 21:47:01.132 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2024-04-10 21:47:01.171 +07:00 [INF] Courses => [{"CourseId":"92fcd896-99bc-4944-f9d3-08dc52c633e4","CourseName":"Tiếng Anh","Description":null,"StudentCourses":null,"$type":"Courses"},{"CourseId":"50d050af-1d1c-49bf-1ea0-08dc543e8690","CourseName":"Vật Lý","Description":"Học đi cho biết lú là như nào","StudentCourses":null,"$type":"Courses"},{"CourseId":"22f6e25e-7cda-45da-ed4a-08dc5711326b","CourseName":"Âm Nhạc","Description":"Không biết vần","StudentCourses":null,"$type":"Courses"},{"CourseId":"88738493-3a85-4443-8f6a-313453432192","CourseName":"Ngữ Văn","Description":"Tình ta không duyên không phận.Biết tên nhưng không thể gặp mặt nhau.Đời ta chung thủy 1 thân.Đời người chung thủy vạn thân vạn người","StudentCourses":null,"$type":"Courses"},{"CourseId":"9250d994-2558-4573-8465-417248667051","CourseName":"Mỹ Thuật","Description":"Rớt môn mỹ thuật, ta quyết tâm vẽ lại bản đồ thế giới","StudentCourses":null,"$type":"Courses"}]
+2024-04-10 21:47:01.188 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentCourses.Models.Courses, StudentCourses, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-10 21:47:01.193 +07:00 [INF] Executed action REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses) in 1267.5608ms
+2024-04-10 21:47:01.195 +07:00 [INF] Executed endpoint 'REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses)'
+2024-04-10 21:47:01.196 +07:00 [INF] HTTP GET /api/Courses responded 200 in 1303.6293 ms
+2024-04-10 21:47:01.201 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Courses - 200 null application/json; charset=utf-8 1311.1885ms
+2024-04-10 21:47:16.727 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Courses/id?id=9250d994-2558-4573-8465-417248667051&includeCourses=false - null null
+2024-04-10 21:47:16.734 +07:00 [INF] Executing endpoint 'REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses)'
+2024-04-10 21:47:16.739 +07:00 [INF] Route matched with {action = "GetCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(System.Guid, Boolean) on controller REST_API_TEMPLATE.Controllers.CoursesController (StudentCourses).
+2024-04-10 21:47:16.890 +07:00 [INF] Executed DbCommand (42ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+WHERE [c].[CourseId] = @__get_Item_0
+2024-04-10 21:47:16.893 +07:00 [INF] Courses => {"CourseId":"9250d994-2558-4573-8465-417248667051","CourseName":"Mỹ Thuật","Description":"Rớt môn mỹ thuật, ta quyết tâm vẽ lại bản đồ thế giới","StudentCourses":null,"$type":"Courses"}
+2024-04-10 21:47:16.895 +07:00 [INF] Executing ObjectResult, writing value of type 'StudentCourses.Models.Courses'.
+2024-04-10 21:47:16.896 +07:00 [INF] Executed action REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses) in 155.7475ms
+2024-04-10 21:47:16.897 +07:00 [INF] Executed endpoint 'REST_API_TEMPLATE.Controllers.CoursesController.GetCourses (StudentCourses)'
+2024-04-10 21:47:16.898 +07:00 [INF] HTTP GET /api/Courses/id responded 200 in 167.9849 ms
+2024-04-10 21:47:16.900 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Courses/id?id=9250d994-2558-4573-8465-417248667051&includeCourses=false - 200 null application/json; charset=utf-8 172.2952ms
+2024-04-10 21:47:31.333 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/CoursesAuth - null null
+2024-04-10 21:47:31.345 +07:00 [INF] Executing endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.GetCourses (StudentCourses)'
+2024-04-10 21:47:31.350 +07:00 [INF] Route matched with {action = "GetCourses", controller = "CoursesAuth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses() on controller REST_API_TEMPLATE.Controllers.CoursesAuthController (StudentCourses).
+2024-04-10 21:47:31.389 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2024-04-10 21:47:31.391 +07:00 [INF] Courses => [{"CourseId":"92fcd896-99bc-4944-f9d3-08dc52c633e4","CourseName":"Tiếng Anh","Description":null,"StudentCourses":null,"$type":"Courses"},{"CourseId":"50d050af-1d1c-49bf-1ea0-08dc543e8690","CourseName":"Vật Lý","Description":"Học đi cho biết lú là như nào","StudentCourses":null,"$type":"Courses"},{"CourseId":"22f6e25e-7cda-45da-ed4a-08dc5711326b","CourseName":"Âm Nhạc","Description":"Không biết vần","StudentCourses":null,"$type":"Courses"},{"CourseId":"88738493-3a85-4443-8f6a-313453432192","CourseName":"Ngữ Văn","Description":"Tình ta không duyên không phận.Biết tên nhưng không thể gặp mặt nhau.Đời ta chung thủy 1 thân.Đời người chung thủy vạn thân vạn người","StudentCourses":null,"$type":"Courses"},{"CourseId":"9250d994-2558-4573-8465-417248667051","CourseName":"Mỹ Thuật","Description":"Rớt môn mỹ thuật, ta quyết tâm vẽ lại bản đồ thế giới","StudentCourses":null,"$type":"Courses"}]
+2024-04-10 21:47:31.404 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[StudentCourses.Models.Courses, StudentCourses, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-10 21:47:31.405 +07:00 [INF] Executed action REST_API_TEMPLATE.Controllers.CoursesAuthController.GetCourses (StudentCourses) in 53.4632ms
+2024-04-10 21:47:31.407 +07:00 [INF] Executed endpoint 'REST_API_TEMPLATE.Controllers.CoursesAuthController.GetCourses (StudentCourses)'
+2024-04-10 21:47:31.407 +07:00 [INF] HTTP GET /api/CoursesAuth responded 200 in 72.5545 ms
+2024-04-10 21:47:31.409 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/CoursesAuth - 200 null application/json; charset=utf-8 76.342ms

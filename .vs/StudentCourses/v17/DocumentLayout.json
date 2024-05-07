@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "D:\\API\\SerilogStudent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\controllers\\coursesauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\controllers\\coursesauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\studentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\studentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|d:\\api\\serilogstudent\\studentcourses\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1297291C-0BF4-4E1E-B218-132DC2A67942}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,109 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentPageController.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\StudentPageController.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Controllers\\StudentPageController.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\StudentPageController.cs",
-              "RelativeToolTip": "StudentCourses\\Controllers\\StudentPageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T15:10:25.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentPage.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\StudentPage.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\StudentPage.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\StudentPage.cs",
-              "RelativeToolTip": "StudentCourses\\StudentPage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T15:09:01.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Program.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Program.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Program.cs",
-              "RelativeToolTip": "StudentCourses\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:36:54.121Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentCourses\\appsettings.json",
+              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\appsettings.json",
+              "RelativeToolTip": "StudentCourses\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T03:05:24.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "StudentCourses\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:36:46.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentCourses\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:34:36.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Models\\Student.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Models\\Student.cs",
-              "RelativeToolTip": "StudentCourses\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:31:52.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CoursesServices.cs",
-              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Services\\CoursesServices.cs",
-              "RelativeDocumentMoniker": "StudentCourses\\Services\\CoursesServices.cs",
-              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Services\\CoursesServices.cs",
-              "RelativeToolTip": "StudentCourses\\Services\\CoursesServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:31:42.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "StudentCourses\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\CourseController.cs",
               "RelativeToolTip": "StudentCourses\\Controllers\\CourseController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:31:36.5Z"
+              "WhenOpened": "2024-04-10T14:45:27.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\UserDto.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\UserDto.cs",
+              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\UserDto.cs",
+              "RelativeToolTip": "StudentCourses\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:14:29.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\User.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\User.cs",
+              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\User.cs",
+              "RelativeToolTip": "StudentCourses\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:14:21.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Program.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Program.cs",
+              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Program.cs",
+              "RelativeToolTip": "StudentCourses\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:31:52.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesAuthController.cs",
+              "DocumentMoniker": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\CoursesAuthController.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Controllers\\CoursesAuthController.cs",
+              "ToolTip": "D:\\API\\SerilogStudent\\StudentCourses\\Controllers\\CoursesAuthController.cs",
+              "RelativeToolTip": "StudentCourses\\Controllers\\CoursesAuthController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:26:07.544Z",
+              "EditorCaption": ""
             }
           ]
         }
